@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "debugType": "portable",
+        "emitEntryPoint": true
+    },
+    "dependencies": {
+        "Microsoft.AspNetCore.Mvc": "1.1.0",
+        "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+        "Microsoft.EntityFrameworkCore.Design": "1.1.0",
+        "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
+        "Microsoft.Extensions.Logging.Console": "1.1.0",
+        "Optional": "3.2.0",
+        "Swashbuckle": "6.0.0-beta902"
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Microsoft.NETCore.App": {
+                    "type": "platform",
+                    "version": "1.1.0"
+                }
+            }
+        }
+    },
+    "tools": {
+        "Microsoft.EntityFrameworkCore.Tools.DotNet": "1.1.0-preview4"
+    }
+}
